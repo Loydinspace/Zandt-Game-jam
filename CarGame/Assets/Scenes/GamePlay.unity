@@ -361,6 +361,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1381561123676843669, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381561123676843669, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8019494622633878127, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
       propertyPath: carSpeed
       value: 50
