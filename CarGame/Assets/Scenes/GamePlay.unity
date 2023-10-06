@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &263240169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 136596, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_Name
+      value: Cartoon_SportCar_B01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.817772
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12916961
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 85.54982
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434688, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1cab3311a46f16b4aac13de0f61cd67b, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,79 +331,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7e9891f686821e46ade0477d65446f6, type: 3}
---- !u!1001 &2115103884
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 136596, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_Name
-      value: Cartoon_SportCar_B01
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 54.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 79.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -8.881806e-14
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 434688, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1381561123676843669, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 1381561123676843669, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 8019494622633878127, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
-      propertyPath: carSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 271f6c29f65972d4492013b8893175b2, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 705507995}
-  - {fileID: 2115103884}
   - {fileID: 1990985248}
+  - {fileID: 263240169}
