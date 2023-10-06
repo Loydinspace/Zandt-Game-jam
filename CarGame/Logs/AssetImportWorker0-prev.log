@@ -15,7 +15,11 @@ C:/Users/mohamed nawas/Documents/GitHub/Zandt-Game-jam/CarGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 61182
+=======
+59119
+>>>>>>> Stashed changes
 Successfully changed project path to: C:/Users/mohamed nawas/Documents/GitHub/Zandt-Game-jam/CarGame
 C:/Users/mohamed nawas/Documents/GitHub/Zandt-Game-jam/CarGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +53,21 @@ C:/Users/mohamed nawas/Documents/GitHub/Zandt-Game-jam/CarGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [9684] Host "[IP] 192.168.43.211 [Port] 0 [Flags] 2 [Guid] 2605925104 [EditorId] 2605925104 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9I13T7PE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [9684] Host "[IP] 192.168.43.211 [Port] 0 [Flags] 2 [Guid] 2605925104 [EditorId] 2605925104 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9I13T7PE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Refreshing native plugins compatible for Editor in 11.92 ms, found 3 plugins.
+=======
+Player connection [6580] Host "[IP] 192.168.43.211 [Port] 0 [Flags] 2 [Guid] 3743965846 [EditorId] 3743965846 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9I13T7PE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6580] Host "[IP] 192.168.43.211 [Port] 0 [Flags] 2 [Guid] 3743965846 [EditorId] 3743965846 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9I13T7PE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 11.82 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,12 +83,17 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.013001 seconds.
 - Loaded All Assemblies, in  0.585 seconds
 Native extension for WindowsStandalone target not found
@@ -86,11 +104,24 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.986 seconds
 Domain Reload Profiling: 1569ms
 	BeginReloadAssembly (168ms)
+=======
+Registered in 0.015316 seconds.
+- Loaded All Assemblies, in  0.552 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 388 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1387ms
+	BeginReloadAssembly (159ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (57ms)
 	RebuildNativeTypeToScriptingClass (15ms)
 	initialDomainReloadingComplete (95ms)
@@ -113,6 +144,30 @@ Domain Reload Profiling: 1569ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (162ms)
 			ProcessInitializeOnLoadMethodAttributes (86ms)
+=======
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (756ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (551ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +175,13 @@ Domain Reload Profiling: 1569ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.976 seconds
 Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  1.173 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,6 +190,7 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.868 seconds
 Domain Reload Profiling: 1841ms
 	BeginReloadAssembly (287ms)
@@ -171,6 +232,49 @@ Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.5 KB). Loaded Objects now: 3554.
 Memory consumption went from 129.7 MB to 129.7 MB.
 Total: 3.447400 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.097900 ms MarkObjects: 3.002100 ms  DeleteObjects: 0.125800 ms)
+=======
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1963ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (795ms)
+		LoadAssemblies (582ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (316ms)
+				TypeCache.ScanAssembly (282ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (794ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.5 KB). Loaded Objects now: 3553.
+Memory consumption went from 129.9 MB to 129.8 MB.
+Total: 5.726600 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.187600 ms MarkObjects: 4.987300 ms  DeleteObjects: 0.192200 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
