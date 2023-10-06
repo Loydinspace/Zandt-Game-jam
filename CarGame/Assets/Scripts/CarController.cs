@@ -10,20 +10,33 @@ public class CarController : MonoBehaviour
     [SerializeField] private float rotatingSpeed = 5f;
     private Vector3 forward;
     private Rigidbody rb;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
+
     private void FixedUpdate()
     {
-        if (Input.GetKey("w"))
+        float inputVertical = Input.GetAxis("Vertical");
+        float inputHorizontal = Input.GetAxis("Horizontal");
+
+        if (inputVertical > 0)
         {
             rb.AddForce(transform.forward * carSpeed * Time.deltaTime, ForceMode.VelocityChange);
         }
-
-        if (Input.GetKey("s"))
+        else if (inputVertical < 0)
         {
             rb.AddForce(-transform.forward * carSpeed * Time.deltaTime, ForceMode.VelocityChange);
+        }
+
+        if (inputHorizontal > 0)
+        {
+            rb.AddForce(transform.right * carSpeed * Time.deltaTime, ForceMode.VelocityChange);
+        }
+        else if (inputHorizontal < 0)
+        {
+            rb.AddForce(-transform.right * carSpeed * Time.deltaTime, ForceMode.VelocityChange);
         }
     }
 }
