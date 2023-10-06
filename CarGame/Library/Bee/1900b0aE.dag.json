@@ -19363,13 +19363,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1483647,
-      "PayloadLength": 33220,
-=======
       "PayloadOffset": 1454355,
-      "PayloadLength": 32683,
->>>>>>> Stashed changes
+      "PayloadLength": 32723,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -19381,11 +19376,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1516954,
-=======
-      "PayloadOffset": 1487125,
->>>>>>> Stashed changes
+      "PayloadOffset": 1487165,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19631,14 +19622,9 @@
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/Final Form Studio/Cliff-scene/Scripts/SimpleCameraController.cs",
         "Assets/Scripts/CarController.cs",
-<<<<<<< Updated upstream
         "Assets/Scripts/NewBehaviourScript.cs",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
-=======
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
->>>>>>> Stashed changes
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
       ],
       "Outputs": [
@@ -19875,13 +19861,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1517050,
-      "PayloadLength": 9606,
-=======
-      "PayloadOffset": 1487221,
+      "PayloadOffset": 1487261,
       "PayloadLength": 9366,
->>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
