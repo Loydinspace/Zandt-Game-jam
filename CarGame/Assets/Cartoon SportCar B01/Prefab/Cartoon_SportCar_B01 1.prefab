@@ -449,6 +449,7 @@ MonoBehaviour:
   Back_R: {fileID: 4597150567969712781}
   Front_L: {fileID: 1675734450491610967}
   Front_R: {fileID: 5534467540716094172}
+  manager: {fileID: 0}
   acceleration: 1000
   brakeForce: 1000
   maxRotationAngle: 20
@@ -2298,6 +2299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSensitivity: 250
+  manager: {fileID: 0}
 --- !u!1 &8884401481272374011
 GameObject:
   m_ObjectHideFlags: 0

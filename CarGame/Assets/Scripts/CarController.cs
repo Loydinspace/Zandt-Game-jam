@@ -12,6 +12,7 @@ public class CarController : MonoBehaviour
     [SerializeField] private WheelCollider Back_R;
     [SerializeField] private WheelCollider Front_L;
     [SerializeField] private WheelCollider Front_R;
+    public GameManager manager;
 
     public float acceleration = 100f;
     public float brakeForce = 100f;
@@ -25,7 +26,14 @@ public class CarController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
         move();
-        steering();
+        if (manager.stateNumber == 1)
+        {
+            invertedSteering();
+        }
+        else
+        {
+            steering();
+        }
     }
     private void move()
     {
@@ -57,5 +65,12 @@ public class CarController : MonoBehaviour
         Front_L.steerAngle = currentRotationAngle;
         Front_R.steerAngle = currentRotationAngle;
 
+    }
+    private void invertedSteering()
+    {
+        currentRotationAngle = maxRotationAngle * -horizontalInput;
+
+        Front_L.steerAngle = currentRotationAngle;
+        Front_R.steerAngle = currentRotationAngle;
     }
 }
