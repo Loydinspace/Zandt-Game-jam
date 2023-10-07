@@ -7,18 +7,15 @@ public class CarController : MonoBehaviour
 {
     private float horizontalInput;
     private float verticalInput;
-    //private float rotateY;
 
     [SerializeField] private WheelCollider Back_L;
     [SerializeField] private WheelCollider Back_R;
     [SerializeField] private WheelCollider Front_L;
     [SerializeField] private WheelCollider Front_R;
-    //[SerializeField] private Transform steeringWheel;
 
     public float acceleration = 100f;
     public float brakeForce = 100f;
     public float maxRotationAngle = 30f;
-    //public float steerWheelRotationSpeed = 2;
 
     private float currentAcceleration = 0f;
     private float currentBrakeForce = 0f;
@@ -42,19 +39,23 @@ public class CarController : MonoBehaviour
             currentBrakeForce = 0f;
         }
 
+        if(Back_L.rpm > 500f)
+        {
+            currentAcceleration = 0f;
+        }
         Back_L.brakeTorque = currentBrakeForce;
         Back_R.brakeTorque = currentBrakeForce;
+        Front_L.motorTorque = currentAcceleration;
+        Front_R.motorTorque = currentAcceleration;
         Back_L.motorTorque = currentAcceleration;
         Back_R.motorTorque = currentAcceleration;
     }
     private void steering()
     {
         currentRotationAngle = maxRotationAngle * horizontalInput;
-        //rotateY += steerWheelRotationSpeed * horizontalInput * Time.deltaTime;
-
-        //steeringWheel.rotation = transform.rotation * steeringWheel.up * Quaternion.Euler(0f, rotateY, 0f);
 
         Front_L.steerAngle = currentRotationAngle;
         Front_R.steerAngle = currentRotationAngle;
+
     }
 }
