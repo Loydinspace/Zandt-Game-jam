@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Final Form Studio\Cliff-scene\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\FogFollow.cs" />
     <Compile Include="Assets\Scripts\MouseMovement.cs" />
     <Compile Include="Assets\Scripts\ScreenManager.cs" />
   </ItemGroup>

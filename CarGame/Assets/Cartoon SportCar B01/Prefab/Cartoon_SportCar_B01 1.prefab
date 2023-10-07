@@ -1249,7 +1249,7 @@ Light:
   m_Intensity: 8
   m_Range: 10
   m_SpotAngle: 100
-  m_InnerSpotAngle: 81.16493
+  m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
