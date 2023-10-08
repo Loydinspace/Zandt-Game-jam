@@ -10,6 +10,15 @@ public class MouseMovement : MonoBehaviour
     private float moveY;
     private void Update()
     {
+        if (manager.pauseMenu.activeSelf == true)
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+
         if(manager.stateNumber == 2)
         {
             FixedMouseMovement();
@@ -22,7 +31,6 @@ public class MouseMovement : MonoBehaviour
     }
     private void FreeMouseMovement()
     {
-        Cursor.lockState = CursorLockMode.Locked;
         moveX += Input.GetAxis("Mouse Y") * -mouseSensitivity * Time.deltaTime;
         moveY += Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
 
