@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MenuScreen : MonoBehaviour
 {
+    private void Awake()
+    {
+        Time.timeScale = 1f;
+    }
     public void playGame()
     {
         SceneManager.LoadSceneAsync(1);
+        Time.timeScale = 1f;
     }
     public void quitGame()
     {

@@ -10,21 +10,12 @@ public class MouseMovement : MonoBehaviour
     private float moveY;
     private void Update()
     {
-        if (manager.pauseMenu.activeSelf == true)
-        {
-            Cursor.lockState = CursorLockMode.None;
-        }
-        else
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-        }
-
         if(manager.stateNumber == 2)
         {
             FixedMouseMovement();
-            manager.stateNumber = 4;
+            manager.stateNumber = 0;
         }
-        else if (manager.stateNumber == 0 || manager.stateNumber == 1 || manager.stateNumber == 3)
+        else if (manager.stateNumber == 4 || manager.stateNumber == 1 || manager.stateNumber == 3)
         {
             FreeMouseMovement();
         }

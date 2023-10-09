@@ -359,6 +359,7 @@
 "Assets/Final Form Studio/Cliff-scene/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/FogFollow.cs"
+"Assets/Scripts/FogSpawner.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/MenuScreen.cs"
 "Assets/Scripts/MouseMovement.cs"

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Final Form Studio\Cliff-scene\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\FogFollow.cs" />
     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
+    <Compile Include="Assets\Scripts\FogSpawner.cs" />
     <Compile Include="Assets\Scripts\MouseMovement.cs" />
     <Compile Include="Assets\Scripts\ScreenManager.cs" />
   </ItemGroup>
