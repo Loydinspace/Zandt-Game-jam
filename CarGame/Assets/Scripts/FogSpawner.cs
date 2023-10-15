@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FogSpawner : MonoBehaviour
@@ -10,18 +11,21 @@ public class FogSpawner : MonoBehaviour
     [SerializeField] private float maxSpawnDistanceZ = 20f;
     [SerializeField] private float minSpawnDistanceX = -2f;
     [SerializeField] private float maxSpawnDistanceX = 2f;
-    [SerializeField] private float minSpawnTime = 20f;
-    [SerializeField] private float maxSpawnTime = 30f;
+
+    [HideInInspector] public float minSpawnTime = 30f;
+    [HideInInspector] public float maxSpawnTime = 35f;
+
     GameObject smallFog;
     private void Start()
     {
         StartCoroutine(startSpawn());
     }
+
     IEnumerator startSpawn()
     {
         while (true)
         {
-            yield return new WaitForSeconds(Random.Range(minSpawnTime, maxSpawnTime));
+            yield return new WaitForSeconds(Random.Range(minSpawnTime,maxSpawnTime));
 
             float spawnDistanceZ = Random.Range(minSpawnDistanceZ, maxSpawnDistanceZ);
             float spawnDistanceX = Random.Range(minSpawnDistanceX, maxSpawnDistanceX);

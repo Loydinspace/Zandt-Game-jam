@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class MouseMovement : MonoBehaviour
 {
-    public float mouseSensitivity=100f;
+    public float mouseSensitivity = 100f;
     public GameManager manager;
     private float moveX;
     private float moveY;
     private void Update()
     {
-        if(manager.stateNumber == 2)
+        if(manager.stateNumber == 3)
         {
             FixedMouseMovement();
-            manager.stateNumber = 0;
+            manager.stateNumber = 5;
         }
-        else if (manager.stateNumber == 4 || manager.stateNumber == 1 || manager.stateNumber == 3)
+        else if (manager.stateNumber == 0 || manager.stateNumber == 1 || manager.stateNumber == 2 || manager.stateNumber == 4)
         {
             FreeMouseMovement();
         }

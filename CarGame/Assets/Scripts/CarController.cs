@@ -1,18 +1,23 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
+    private Rigidbody rb;
     private float horizontalInput;
     private float verticalInput;
+
+    //public Vector3 _centerOfMass;
 
     [SerializeField] private WheelCollider Back_L;
     [SerializeField] private WheelCollider Back_R;
     [SerializeField] private WheelCollider Front_L;
     [SerializeField] private WheelCollider Front_R;
+
     [SerializeField] private GameObject gameOver;
+
+    [SerializeField] private GameObject dangerFog;
 
     [SerializeField] private bool isInverted = false;
     public GameManager manager;
@@ -29,6 +34,12 @@ public class CarController : MonoBehaviour
     private float currentAcceleration = 0f;
     private float currentBrakeForce = 0f;
     private float currentRotationAngle = 0f;
+
+    private void Start()
+    {
+        //transform.position = manager.checkPointPosition;
+    }
+
     private void FixedUpdate()
     {
         horizontalInput = Input.GetAxis("Horizontal");
@@ -49,8 +60,8 @@ public class CarController : MonoBehaviour
         }
 
         steering(isInverted);
-
     }
+
     private void move()
     {
         currentAcceleration = acceleration * verticalInput;
@@ -63,7 +74,7 @@ public class CarController : MonoBehaviour
             currentBrakeForce = 0f;
         }
 
-        if(Back_L.rpm > 500f)
+        if(Back_L.rpm > 700f)
         {
             currentAcceleration = 0f;
         }
@@ -74,6 +85,7 @@ public class CarController : MonoBehaviour
         Back_L.motorTorque = currentAcceleration;
         Back_R.motorTorque = currentAcceleration;
     }
+
     private void steering(bool isInverted)
     {
         if (isInverted)
@@ -85,8 +97,8 @@ public class CarController : MonoBehaviour
 
         Front_L.steerAngle = currentRotationAngle;
         Front_R.steerAngle = currentRotationAngle;
-
     }
+
     private void jumpscareOnSoundChange()
     {
         if(manager.stateNumber == 1)
@@ -102,12 +114,14 @@ public class CarController : MonoBehaviour
             stateThreeSound.Play();
         }
     }
+
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Enemy"))
         {
             carCrashSound.Play();
-            manager.gameOverScreen.SetActive(true);
+
+            manager.gameOver();
         }
     }
 }

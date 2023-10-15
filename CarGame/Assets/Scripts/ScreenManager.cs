@@ -8,16 +8,16 @@ public class ScreenManager : MonoBehaviour
     private GameManager manager;
     private void Awake()
     {
-        manager = GetComponent<GameManager>();
+        manager = GetComponent<CarController>().manager;
     }
     private void Update()
     {
-        if(manager.stateNumber == 3)
+        if(manager.stateNumber == 2)
         {
             LowVision.SetActive(true);
             manager.stateNumber = 4;
         }
-        else if(manager.stateNumber == 0 || manager.stateNumber == 1 || manager.stateNumber == 2)
+        else if(manager.stateNumber == 0 || manager.stateNumber == 1 || manager.stateNumber == 3)
         {
             LowVision.SetActive(false);
         }
